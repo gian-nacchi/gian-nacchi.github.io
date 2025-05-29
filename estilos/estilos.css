@@ -1,0 +1,145 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: #35acec;
+}
+h1,h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+main {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #070707;
+    /* height: 100%;
+    padding-bottom: 8em;
+    box-sizing: border-box; */
+    min-height: calc(100vh - 8em);
+}
+button, select{
+    background-color: #35acec;
+    color: white;
+    padding: 1em;
+    margin: 1em;
+    font-size: 1.5em;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.botones {
+    text-align: center;
+}
+/* ------------------seccion galeria----------------- */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 3em;
+}
+div.card{
+    padding: 10px;
+}
+
+.galeria > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    color: #000000;
+    border-radius: 15px;
+    width: 40%; 
+    max-width: 400px;
+}
+
+.galeria img {
+    width: 100%; 
+    height: auto;
+    max-height: 250px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    object-fit: cover;
+}
+
+.galeria h3 {
+    font-size: 1.8em;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.galeria p {
+    font-size: 1.4em;
+    text-align: center;
+    margin: 0.5em 0;
+    word-wrap: break-word; 
+}
+
+#contadorDiscos {
+    font-size: 3em; 
+    color: #35acec;
+    font-weight: 700;
+    margin-top: 1em;
+    text-align: center;
+}
+
+/* .album-card {
+    display: inline-block;
+    margin: 15px;
+    vertical-align: top;
+} */
+
+.card {
+    background-color: white;
+    overflow: hidden;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.text-success {
+    color:#35acec;
+    font-size:1rem;
+    padding: 9px;
+}
+
+.lista-canciones {
+    list-style: none;
+    padding:0
+}
+
+footer {
+    background-color: #35acec;
+    color: #ffffff;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li a {
+    color: #d0e0e3;
+    text-decoration: none;
+}
