@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "nombre": "Remera NESS",
+        "descripcion": "Remera negra de algodón",
+        "precio": 40000,
+        "imagen":"https://equus.vtexassets.com/arquivos/ids/278220-1600-auto?v=638754791561300000&width=1600&height=auto&aspect=true",
+        "categoria": "Remeras"
+    },
+    {
+        "id": 2,
+        "nombre": "Remera PAULO",
+        "descripcion": "Remera de algodón blanca, cómoda.",
+        "precio": 40000,
+        "imagen": "https://equus.vtexassets.com/arquivos/ids/274957-1600-auto?v=638750528296070000&width=1600&height=auto&aspect=true",
+        "categoria": "Remeras"
+    },
+    {
+        "id": 3,
+        "nombre": "Remera AKAMU",
+        "descripcion": "Remera gris, perfecta para destacar en tu outfit.",
+        "precio": 40000,
+        "imagen": "https://equus.vtexassets.com/arquivos/ids/280368-1600-auto?v=638756795474370000&width=1600&height=auto&aspect=true",
+        "categoria": "Remeras"
+    },
+    {
+        "id": 4,
+        "nombre": "HOODIE TOURS",
+        "descripcion": "Buzo con capucha forrada, cordón de ajuste y bolsillo tipo canguro en el frente. Confeccionado en rústico de peso intermedio.",
+        "precio": 59900,
+        "imagen": "https://equus.vtexassets.com/arquivos/ids/279655-1600-auto?v=638756634735600000&width=1600&height=auto&aspect=true",
+        "categoria": "Buzos"
+    },
+    {
+        "id": 5,
+        "nombre": "HOODIE MARKEN",
+        "descripcion": "Buzo de rústico de peso intermedio, con capucha y bolsillo tipo canguro en el frente. Con cintura y puños tejidos en ribb para ajuste.",
+        "precio": 59900,
+        "imagen": "https://equus.vtexassets.com/arquivos/ids/283698-1600-auto?v=638790411572000000&width=1600&height=auto&aspect=true",
+        "categoria": "Buzos"
+    },
+    {
+        "id": 6,
+        "nombre": "BUZO NORVIK",
+        "descripcion": "Buzo de frisa de peso intermedio, con cuello redondo, con bordado en relieve a tono en delantero.",
+        "precio": 59900,
+        "imagen": "https://equus.vtexassets.com/arquivos/ids/279751-1600-auto?v=638756640076000000&width=1600&height=auto&aspect=true",
+        "categoria": "Buzos"
+    },
+    {
+        "id": 7,
+        "nombre": "BUZO NACKA",
+        "descripcion": "Buzo de rústico de peso intermedio, color block en tres colores: camel, vivo natural y negro, con cuello redondo. Con cintura y puños tejidos en ribb para ajuste. Composición: 100% Algodón.",
+        "precio": 59900,
+        "imagen": "https://equus.vtexassets.com/arquivos/ids/278013-1600-auto?v=638754790210400000&width=1600&height=auto&aspect=true",
+        "categoria": "Buzos"
+    },
+    {
+        "id": 8,
+        "nombre": "REMERA STANLEY",
+        "descripcion": "Remera de jersey de algodón con textura waffle, de mangas largas, con capucha con tiras de ajuste. Composición: 50% algodón - 50% modal.",
+        "precio": 44900,
+        "imagen": "https://equus.vtexassets.com/arquivos/ids/269546-1600-auto?v=638427573427400000&width=1600&height=auto&aspect=true",
+        "categoria": "Remeras"
+    },
+    {
+        "id": 9,
+        "nombre": "CAMPERA DOMENICO",
+        "descripcion": "Campera de jean de fit clásico, tejido, color negro gastado con avíos negro mate 98% algodón, 2% elastano",
+        "precio": 69900,
+        "imagen": "https://equus.vtexassets.com/arquivos/ids/282020-1600-auto?v=638761079008430000&width=1600&height=auto&aspect=true",
+        "categoria": "Camperas"
+    },
+    {
+        "id": 10,
+        "nombre": "Campera ASTANA",
+        "descripcion": "Campera de PU cuello mao con broche metálico y acceso en cierre metálico. Detalle de apliques matelaseados en hombros",
+        "precio": 119900,
+        "imagen": "https://equus.vtexassets.com/arquivos/ids/280014-1600-auto?v=638756783699070000&width=1600&height=auto&aspect=true",
+        "categoria": "Camperas"
+    },
+    {
+        "id": 11,
+        "nombre": "Campera VAIL",
+        "descripcion": "Campera de paño a cuadros, con cierre delantero metálico, con dos bolsillos plaque con tapa en delantero y tiras de ajuste en ruedo.",
+        "precio": 139900,
+        "imagen": "https://equus.vtexassets.com/arquivos/ids/274199-1600-auto?v=638750490328570000&width=1600&height=auto&aspect=true",
+        "categoria": "Camperas"
+    },
+    {
+        "id": 12,
+        "nombre": "Campera Sorrento",
+        "descripcion": "Campera de gabardina con efecto gastado, con cuello de corderito a tono, y forreria matelaseada a tono. Apertura frontal con botones jeaneros.",
+        "precio": 109900,
+        "imagen": "https://equus.vtexassets.com/arquivos/ids/275964-1600-auto?v=638750714289970000&width=1600&height=auto&aspect=true",
+        "categoria": "Camperas"
+    }
+]
