@@ -1,0 +1,406 @@
+/* RESETEO GENERAL */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+* HTML Y BODY */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Para que el scroll no quede tapado por el header fijo */
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+
+/* TIPOGRAFÍA */
+h1 {
+font-size: 2.5rem;
+  padding: 1.2rem 0;
+  color: white;
+}
+
+h2 {
+  font-size: 38px;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  font-weight: 700;
+  text-align: center;
+  font-family: "Press Start 2P", system-ui;
+}
+h3{
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  font-weight: 1px;
+  margin: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 0 10px 0px 10px;
+  font-family: sans-serif;
+}
+
+/* ESTRUCTURA GENERAL */
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  padding: 1rem 0;
+  margin: 1rem 0;
+  border: thin solid transparent;
+  scroll-margin-top: 80px;
+}
+
+
+/* -------seccion del inicio------- */
+
+.seccionInicio{
+  margin: auto;
+}
+.videoYoutube{
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.containerBanner {
+  max-width: 100vw;
+  padding-top: 60px;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*SECCION DEL HEADER */
+header h1{
+  display: none;
+}
+
+.header-bg {
+  background-color: rgb(17, 17, 17);
+}
+
+.header-bg > header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+/* SECCION DEL NAV */
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  padding: 10px 20px;
+  background-color: #000000;      
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap:  30px;  
+  padding: 1rem;       
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+}
+.logo{
+  margin-left: 30px;
+}
+
+/* ---------CAROUSEL------- */
+.carousel {
+  position: relative;
+  width: 900px;
+  max-width: 100%;
+  margin: 1rem auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px rgba(255, 255, 255, 0.477);
+  background-color: rgb(255, 255, 255);
+} 
+.slides {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex-shrink: 0;
+}
+
+input[name="carousel"] {
+  display: none;
+}
+
+#slide1:checked ~ .slides {
+  transform: translateX(0%);
+}
+#slide2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+#slide3:checked ~ .slides {
+  transform: translateX(-200%);
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.navigation label {
+  cursor: pointer;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #d1d1d1;
+  border-radius: 50%;
+  margin: 0 7px;
+  transition: background-color 0.3s ease;
+}
+
+#slide1:checked ~ .navigation label[for="slide1"],
+#slide2:checked ~ .navigation label[for="slide2"],
+#slide3:checked ~ .navigation label[for="slide3"] {
+background: #000000;
+}
+
+/* <!-- ------SECCION HISTORIA DEL ROCK----- --> */
+.rowImg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.instrumentos{
+        display: flex;
+        flex-direction: row;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.885);
+        margin-top: 1rem;
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, 0.466);
+}
+
+
+/* -------SECCION DEL FOOTER------- */
+footer{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 1rem 0;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+footer ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+footer ul li{
+  margin: 5px 0;
+}
+
+/* ----PAGINA SORTEO----- */
+.background {
+  background-image: url(../imagenes/formulario/imgbackground.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+
+}
+
+.formularioContacto {
+  max-width: 1200px;
+  color: black;
+  padding-top: 2rem;
+  padding:1rem;
+  margin: 100px auto;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.76);
+}
+
+.formularioContacto h2{
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  color: black;
+  border-bottom: 2px solid rgb(2, 2, 2);
+  font-weight: 700;
+  text-align: center;
+  font-family: "Press Start 2P", system-ui;
+}
+.formularioContacto h3{
+  font-family: sans-serif;
+  font-size: 20px;
+  border: none;
+  color: black;
+}
+legend{
+  color:black;
+  font-weight: bold;
+  
+}
+.formularioContacto label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.formularioContacto input,
+.formularioContacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.formularioContacto button{
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color:rgb(0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.formularioContacto a{
+  text-decoration: none;
+  color:white;
+  font-size: 1rem;
+}
+.form{
+  background-color: black;
+  width: 100%;
+  color: white;
+  
+}
+
+
+/* ------PAGINA DISCOGRAFIA----- */
+.discografia{
+  padding-top: 4rem;
+}
+.albumes{
+  margin: 1rem;
+}
+.text-box{
+  font-family: sans-serif;
+  margin: 0 1rem;
+}
+.text-box p{
+  font-size: 20px;
+}
+.text-box ul li{
+  list-style-type: none;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.imgAlbum{
+  max-width: 400px;
+}
+.spotify{
+  padding: 0 10px 10px;
+}
+.text-box{
+  font-family: sans-serif;
+}
+
+
+/* ------PAGINA GRACIAS---- */
+.contenedorGracias{
+      background-size: cover;
+      color: #000000;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+.contenedorPrincipal{
+ max-width: 1200px;
+  color: rgb(0, 0, 0);
+  padding-top: 2rem;
+  padding:1rem;
+  text-align: center;
+  margin: 100px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(19, 11, 11, 0.76);
+}
+.contenedorPrincipal h2{
+      font-size: 26px;
+      color: #000000;
+      margin-bottom: 20px;
+      border-bottom: 2px solid rgb(0, 0, 0);
+}
+.contenedorPrincipal p{
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+a.boton {
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 12px;
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+      font-family: 'Press Start 2P', cursive;
+}
+a.boton:hover {
+      background-color: #8d8989;
+    }
+.formGracias{
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
